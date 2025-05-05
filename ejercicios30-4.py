@@ -25,7 +25,7 @@ for intento in range(intentos):
 
 
     if adivinanza == numero_secreto:
-        print("¡Correcto! Ganaste.")
+        print("¡Correcto! Ganaste!.")
         break
     elif adivinanza < numero_secreto:
         print("El número secreto es mayor.")
