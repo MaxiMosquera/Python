@@ -12,18 +12,18 @@ def imprimir_numeros_especiales(inicio, fin):
 
 def pedir_rango_y_mostrar():
     try:
-        inicio = int(input("Ingresá el número de inicio (entre 1 y 100): "))
-        fin = int(input("Ingresá el número de fin (entre 1 y 100): "))
+        inicio = int(input("Ingrese el numero de inicio (entre 1 y 100): "))
+        fin = int(input("Ingrese el numero de fin (entre 1 y 100): "))
 
         if 1 <= inicio <= 100 and 1 <= fin <= 100:
             if inicio <= fin:
                 imprimir_numeros_especiales(inicio, fin)
             else:
-                print("El número de inicio debe ser menor o igual al número de fin.")
+                print("El numero de inicio debe ser menor o igual al numero de fin.")
         else:
-            print("Ambos números deben estar entre 1 y 100.")
+            print("Ambos numeros deben estar entre 1 y 100.")
     except ValueError:
-        print("Por favor, ingresá números enteros válidos.")
+        print("Por favor, ingrese numeros enteros validos.")
 
 
 
